@@ -17,7 +17,7 @@ composer.command('help', async (ctx) => {
 })
 
 composer.command('top', async (ctx) => {
-    await ctx.reply("top")
+    await ctx.reply(ctx.t("top"))
 })
 
 module.exports = composer
